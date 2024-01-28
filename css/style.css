@@ -1,0 +1,42 @@
+:root {
+  --color-primary-dark: #2b7fff;
+  --color-primary-light: #ffffff;
+  --color-primary-sections: #011c44;
+}
+/* Base */
+ul {
+  list-style-type: none;
+}
+body {
+  color: var(--color-primary-sections);
+}
+/* Button */
+.main_button {
+  color: var(--color-primary-ligh);
+  background-color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary-dark);
+  border-radius: 12px;
+}
+.main_button:hover {
+  color: #2b7fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* link */
+.link {
+  color: #011c44;
+}
+.link:hover {
+  color: var(--color-primary-dark);
+}
+/* Hero_title */
+.hero_title {
+  color: var(--color-primary-dark);
+}
+/*  */
+.accent_headers {
+  color: var(--color-primary-dark);
+}
+.accent_of_brand {
+  font-weight: bold;
+}
