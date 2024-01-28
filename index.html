@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
+    <!-- CSS files -->
     <link rel="stylesheet" href="./css/reboot.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -39,7 +41,7 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="main_title_section">
         <h4>Косметоологічна клініка</h4>
         <h1 class="hero_title" lang="en">Beauty Zone</h1>
         <button class="main_button" type="button">Замовити дзвінок</button>
@@ -133,20 +135,31 @@
       </a>
       <nav>
         <ul>
-          <li><a href="#about_us_section">Про нас</a></li>
-          <li><a href="#why_do_we_section">Чому ми</a></li>
-          <li><a href="#our_procedures_section">Наші процедури</a></li>
-          <li><a href="#contact_section">Контакти</a></li>
+          <li><a class="link" href="#about_us_section">Про нас</a></li>
+          <li><a class="link" href="#why_do_we_section">Чому ми</a></li>
+          <li>
+            <a class="link" href="#our_procedures_section">Наші процедури</a>
+          </li>
+          <li><a class="link" href="#contact_section">Контакти</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+38(096)0000007">+ 38 (096) 000 00 07</a></li>
           <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+            <a class="address_link" href="tel:+38(096)0000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/f5roskzKXoE4J4bq9" target="_blank"
+            <a class="address_link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="address_link"
+              href="https://maps.app.goo.gl/f5roskzKXoE4J4bq9"
+              target="_blank"
               >Україна, м. Київ, вул. Тараса Шевченка 5</a
             >
           </li>
@@ -166,8 +179,10 @@
             </a>
           </li>
         </ul>
-        <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>&copy; 2022 Дані захищені</p>
+        <a class="address_link" href="#" target="_blank"
+          >Політика конфіденційності</a
+        >
+        <p class="address_copyright">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
