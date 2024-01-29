@@ -2,6 +2,8 @@
   --color-primary-lightmain: #2b7fff;
   --color-primary-light: #ffffff;
   --color-primary-dark: #011c44;
+  --color-secondary-dark: #4a4a4a;
+  --color-secondary-light: #747272;
 }
 /* Base */
 body {
