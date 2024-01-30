@@ -6,12 +6,25 @@
   --color-secondary-light: #747272;
 }
 /* Base */
+
+* {
+  box-sizing: border-box;
+}
 body {
   color: var(--color-primary-dark);
   font-family: "Poppins";
   font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 h2 {
   text-align: center;
@@ -23,36 +36,85 @@ h4 {
 ul {
   list-style-type: none;
 }
+
+section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 /* Button */
 .main_button {
-  color: var(--color-primary-ligh);
+  padding: 16px 40px;
+  color: var(--color-primary-light);
   background-color: var(--color-primary-lightmain);
   border: 2px solid var(--color-primary-lightmain);
-  border-radius: 12px;
+  border-radius: 50px;
+  margin-bottom: 14px;
 }
 .main_button:hover {
-  color: #2b7fff;
+  color: var(--color-primary-dark);
   background-color: transparent;
   cursor: pointer;
 }
 /* link */
 .link {
   color: var(--color-primary-dark);
-  font-size: 16px;
 }
 .link:hover {
   color: var(--color-primary-lightmain);
-  font-weight: 600;
   text-decoration: none;
+}
+/* Header */
+.header {
+  padding: 32px 32px;
+}
+.header_container {
+  display: flex;
+}
+.head_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.head_menu {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 0;
+}
+.head_contacts {
+  display: flex;
+  margin-bottom: 0;
+  gap: 32px;
 }
 /* Hero_title */
 .hero_title {
   color: var(--color-primary-lightmain);
-  font-size: 64px;
+  font-size: 100px;
+  margin-bottom: 40px;
 }
 .main_title_section p {
   font-size: 14px;
 }
+.main_container {
+  display: block;
+  max-width: 530px;
+  padding-left: 120px;
+  line-height: 1;
+}
+.main_container h4 {
+  margin-bottom: 16px;
+}
+.main_paragraph {
+  max-width: 230px;
+  padding: 0 4px;
+}
+
 /* Another titles */
 .section_title {
   font-size: 32px;
@@ -70,19 +132,65 @@ ul {
 }
 .about_us_section h2 {
   text-align: left;
+  max-width: 250px;
+  margin-bottom: 40px;
+}
+.about_us_title {
+  margin-bottom: 40px;
+}
+.about_us_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.about_us_content {
+  max-width: 550px;
+}
+.about_us_container img {
+  max-width: 300px;
+}
+.about_us_images {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+}
+.before_mask_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.after_mask_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about_us_text {
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 /* Why do we section */
 
 .why_do_we_section p {
-  font-size: 16px;
+  font-size: 18px;
+}
+.why_do_we_title {
+  margin-bottom: 48px;
 }
 /* Our procedurs section */
 .article_title {
   color: var(--color-primary-light);
   font-size: 16px;
 }
+
+.procedures_title {
+  margin-bottom: 48px;
+}
 /* Contact section */
 
+.contact_title {
+  margin-bottom: 48px;
+}
 /* footer */
 .address_link {
   color: var(--color-primary-dark);
